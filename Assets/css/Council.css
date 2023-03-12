@@ -50,7 +50,7 @@ h1{
 .carousel-wrapper{
   z-index: 2;
   opacity: 1;
-  background: url('counci.png');
+  background: url('./counci.png');
   background-size: cover;
   border-radius: 30px;
   filter: gray; /* IE5+ */
