@@ -8,9 +8,9 @@ body{
 	box-sizing: border-box;
 }
 .team-section{
-	/* background-image: url("./download.jpeg");
+	background-image: url("./EDC\ BG\ 02.png");
 	background-size: cover;
-	background-repeat: no-repeat; */
+	background-repeat: no-repeat;
 	background-color: #16364E;
 	min-height: 100vh;
 	padding:70px 15px 30px;
