@@ -1,0 +1,243 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#aboutua {
+  height: auto;
+  background-color: #16364E;
+  /* background: url(Assets/Cover.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    /* background-color: black; */
+}
+#abu{
+  color:royalblue;
+  font-weight: 900;
+  font-size: 14px;
+}
+#edc {
+  color:whitesmoke;
+  font-weight: 300;
+}
+
+
+span.num {
+  color: aliceblue;
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+  font-size: 3em;
+}
+span.text {
+  color: aliceblue;
+  font-size: 1em;
+  text-align: center;
+  pad: 0.7em 0;
+  font-weight: 400;
+  line-height: 0;
+}
+
+.con {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutus {
+  margin-top: 15%;
+  top: 100px;
+  left: 25%;
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background: rgba( 255, 255, 255, 0.1 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2.5px );
+-webkit-backdrop-filter: blur( 2.5px );
+border-radius: 10px;
+/* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+  flex-wrap: wrap;
+}
+#para {
+  padding: 20px;
+  font-size: 11px;
+  text-align: center;
+  
+  width: 100%;
+}
+.about {
+  top: 15px;
+  position: relative;
+  font-size: 20px;
+
+  font-weight: 600;
+  color: aliceblue;
+}
+@media (min-width: 576px) {
+  #aboutua {
+    height: auto;
+  }
+  
+  .con {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutus {
+    height: auto;
+    margin-top: 15%;
+    top: 100px;
+    left: 25%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #para {
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: aliceblue;
+    width: 100%;
+  }
+  .about {
+    top: 20px;
+    font-size: 28px;
+    font-weight: 600;
+    color: aliceblue;
+
+    position: relative;
+  }
+  #abu{
+    font-size: 22px;
+  }
+}
+@media (min-width: 768px) {
+  #aboutua {
+    height: auto;
+  }
+  .con {
+    height: auto;
+  }
+  .aboutus {
+    height: auto;
+    margin-top: 5%;
+    left: 25%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #para {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+    width: 100%;
+  }
+  #abu{
+    font-family: 24px;
+  }
+  .about {
+    top: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    color: aliceblue;
+
+    position: relative;
+  }
+  
+}
+@media (min-width: 992px) and (max-width: 1440px) {
+  #aboutua {
+    height: auto;
+  }
+  .con {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutus {
+    height: auto;
+    margin-top: 5%;
+    top: 100px;
+    left: 25%;
+    width: 80%;
+    display: flex;
+    background: rgba( 255, 255, 255, 0.1 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2.5px );
+-webkit-backdrop-filter: blur( 2.5px );
+border-radius: 10px;
+/* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+    flex-wrap: wrap;
+  }
+  #para {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    
+    width: 100%;
+  }
+  #abu{
+    font-size: 24px;
+  }
+  .about {
+    top: 15px;
+    font-size: 25px;
+
+    font-weight: 600;
+    color: aliceblue;
+
+    position: relative;
+  }
+  
+}
+@media (min-width: 1440px) {
+  #aboutua {
+    height: 100vh;
+  }
+  .con {
+    height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about {
+    font-size: 45px;
+    font-weight: 600;
+    color: aliceblue;
+    top: 30px;
+    position: relative;
+  }
+  .aboutus {
+    margin-top: 25%;
+    top: 100px;
+    left: 25%;
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #para {
+    padding: 40px;
+    font-size: 22px;
+    text-align: center;
+   
+    width: 100%;
+  }
+  #abu{
+    font-size: 28px;
+  }
+  
+}

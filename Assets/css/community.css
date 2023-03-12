@@ -1,0 +1,375 @@
+* {
+    box-sizing: border-box;
+}
+
+/* body {
+    font-family: 'Open Sans', sans-serif;
+} */
+
+.container {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+:root {
+	--primary-color: #2d2254;
+	--secondary--color: #f5c42f;
+	--text-color: #c5bbec;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	/* font-family: 'Montserrat', sans-serif; */
+	background: var(--primary-color);
+	color: #fff;
+	font-size: 18px;
+	line-height: 1.6;
+}
+i{
+	font-size: 18px;
+	margin: 12px;
+	background: -webkit-linear-gradient(135deg, #A547F3 0%, #34B4FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h1,
+h2,
+h3,
+p {
+	margin-bottom: 10px;
+}
+h2{
+	text-transform: capitalize;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+ul {
+	list-style: none;
+}
+
+.btn {
+	display: inline-block;
+	border: 0;
+	/* background: var(--secondary--color); */
+	background-color: #BA68C8;
+	color: #fff;
+	border-radius: 20px;
+	padding: 8px 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 10px;
+	 /* animation: fadeIn 2s; */
+}
+
+.btn:hover {
+	transform: scale(0.98);
+}
+
+.primary-text {
+	color: var(--primary-color);
+}
+
+.secondary-text {
+	color: var(--secondary--color);
+}
+
+.section {
+	position: relative;
+	padding: 0 20px;
+}
+
+/* Section Top */
+.section-top {
+	min-height: 500px;
+	background: url('https://i.ibb.co/PhVR2Vh/bg1.png') no-repeat center center/cover;
+}
+
+.section-top h1 {
+	font-size: 70px;
+	line-height: 1.3;
+	font-weight: 900;
+	 /* animation: fadeIn 2s; */
+}
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+.animatedFadeInUp {
+    opacity: 0
+}
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.section-top .content {
+	position: absolute;
+	top: 100px;
+	right: 20px;
+	width: 55%;
+}
+
+/* Section Stream */
+.section-stream {
+	min-height: 700px;
+	background: url('https://i.ibb.co/bsX6RV0/bg2.png') no-repeat center center/cover;
+	max-width: 1780px;
+}
+
+.section-stream h2 {
+	font-size: 35px;
+}
+
+.section-stream .play {
+	width: 35%;
+	position: absolute;
+	top: 100px;
+	left: 50px;
+}
+
+.section-stream .content {
+	position: absolute;
+	width: 50%;
+	top: 130px;
+	right: 70px;
+}
+
+.section-stream .content > div, .section-grid > div {
+	background: rgba(255, 255, 255, 0.1);
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+/* Section Grid */
+.section-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 30px;
+	text-align: center;
+
+}
+
+.section-grid p {
+	color: var(--text-color);
+}
+
+.section-grid .dot {
+	font-size: 40px;
+	padding-left: 2px;
+}
+
+/* Footer */
+.footer {
+	border-top: var(--text-color) 1px solid;
+	padding: 30px;
+	margin-top: 20px;
+}
+
+.footer ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+}
+
+
+/* Footer  */
+.h3,h3 {
+	font-size: 1.75rem;
+	overflow: hidden;
+}
+.site-footer .widget{
+align-items: center;
+justify-content: center;
+text-align: center;
+display: block;
+	position: relative;
+	z-index: 1;
+}
+li a{
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+.site-footer .social li {
+	display: inline-block;
+}
+.site-footer .social li a {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	background-color: #ffffff;
+	border-radius: 50%;
+	color: #000000;
+}
+.site-footer .widget .links li a {
+	color: rgba(255, 255, 255, 0.5);
+}
+ol,
+ul {
+	margin-top: 0;
+	margin-bottom: 26px;
+}
+.site-footer .social li a>span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.list-unstyled {
+	padding-left: 0;
+	list-style: none;
+}
+::-webkit-scrollbar{
+	width: 12px;
+}
+::-webkit-scrollbar-track{
+	background:#16364E;
+   
+}
+
+::-webkit-scrollbar-thumb{
+	 background:rgb(6, 122, 122);
+	border-radius: 9px;
+	
+	
+}
+p {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+.site-footer .widget h3 {
+	font-size: 16px;
+	color: #ffffff;
+	margin-bottom: 30px;
+}
+.row {
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+#Section5 .container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.site-footer {
+	background: url(Cover.png) no-repeat;
+background-size: cover;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 70px 0;
+}
+[class^="icon-"] {
+	font-family: 'icomoon' !important;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+ul>li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+	padding: 10px 10px 10px 0px;
+}
+.float-left {
+float:none !important;
+}
+.foots{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+/* Mobile */
+@media (max-width: 700px) {
+	.section-top .content,
+	.section-stream .play,
+	.section-stream .content {
+		position: static;
+		width: 100%;
+	}
+
+	.section-top {
+		min-height: 200px;
+		padding-top: 150px;
+	}
+
+	.section-top .content {
+		text-align: center;
+	}
+
+	.section-top .content h1 {
+		font-size: 45px;
+	}
+
+	.section-stream {
+		min-height: 400px;
+	}
+
+	.section-stream .play {
+		width: 50%;
+		display: block;
+		margin: 30px auto;
+	}
+
+	.section-grid {
+		display: block;
+		margin-top: 0;
+	}
+}
+@media only screen and (max-width: 992px) and (min-width: 700px)  {
+	.section-grid{
+		margin-top: 150px;
+	}
+	
+}
+@media only screen and (max-width: 800px) and (min-width: 700px){
+	.section-top h1{
+		font-size:60px;
+			}
+			p{
+				font-size: 15px;
+			}
+}
+@media only screen and (max-width: 768px) and (min-width: 320px){
+	.widget img{
+		width: 40%;
+	}
+}

@@ -1,0 +1,70 @@
+header{
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 10000;
+    background: #310E68;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1.5rem 9%;
+    font-family: "Poppins", sans-serif;
+}
+
+.header .logo{
+    font-weight: bolder;
+    color:#fff;
+    font-size: 2.5rem;
+}
+
+.header .logo span{
+    color:var(--main-color);
+}
+
+.header .navbar a{
+    font-size: 1.7rem;
+    color:#fff;
+    margin-left: 2rem;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
+#menu-bars{
+    font-size: 3rem;
+    color:#fff;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width:768px){
+
+    #menu-bars{
+        display: initial;
+    }
+
+    .header .navbar{
+        position: absolute;
+        top:100%; left:0; right:0;
+        border-top: .1rem solid blue;
+        background:darkslateblue;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    .header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .fa-times{
+        transform: rotate(180deg);
+    }
+
+    .header .navbar a{
+        display: flex;
+        background:purple;
+        border-radius: .5rem;
+        padding:1.3rem;
+        margin:1.3rem;
+        font-size: 2rem;
+    }
+}
