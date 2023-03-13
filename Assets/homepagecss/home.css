@@ -14,12 +14,17 @@ Fonts
 Global CSS
 --------------------*/
 
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+}
 body {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    overflow-x: hidden;
+  
     
     line-height: 1.5;
 }
@@ -267,6 +272,7 @@ Navbar
     background-color:#03498764;
     padding: 20px 0;
     transition: all 0.5s ease;
+    max-width: 100vw;
 }
 
 .navbar.navbar-shrink {
