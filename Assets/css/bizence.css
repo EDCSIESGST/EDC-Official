@@ -34,6 +34,10 @@ body{
   
   
 }
+.participant img {
+  width: 25%;
+  height: auto;
+}
 i{
 	font-size: 18px;
 	margin: 12px;
@@ -713,5 +717,9 @@ transform: scale(1.1);
 @media only screen and (max-width:768px){
  .scolo i{
     display: none;
+  }
+  .participant img{
+    width: 50%;
+    height: auto;
   }
 }

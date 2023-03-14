@@ -10,7 +10,7 @@ body{
     
       height:100vh;
     
-        background: url('./free-nature-stock-OQfuugXSfH0-unsplash\ 1.png');
+        background: url('EDC\ BG\ 02.png');
     
         background-attachment:fixed;
     
@@ -172,5 +172,5 @@ body{
          z-index:10,000!important;
     }
     .bottom{
-        font-size: 25px;
+        font-size: 40px;
     }
