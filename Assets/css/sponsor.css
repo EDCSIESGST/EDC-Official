@@ -15,7 +15,10 @@ padding:4px;
 #sponsors{
   height: auto;
 }
-
+#edpart img{
+height: auto;
+max-width: 175px;
+}
 .card-panel{
  
 transition: box-shadow .25s;
@@ -23,6 +26,10 @@ transition: box-shadow .25s;
  
   border-radius: 2px;
   background: rgba( 255, 255, 255, 0.1 );
+}
+#eventsp img{
+  height: 150px;
+  max-width: 300px;
 }
 
 .hoverable:hover {
@@ -40,6 +47,10 @@ transition: box-shadow .25s;
   margin: 0;
   padding: 2px;
 }
+#liljoy img{
+  padding-top: 20px;
+}
+
 @media only screen and (min-width : 768px) {
   .container {
     width: 85%; } }
@@ -53,6 +64,10 @@ transition: box-shadow .25s;
       list-style: none;
       padding:4px;
       }
+      #liljoy img{
+        padding-top: 50px;
+      }
+
 
 
 @media only screen and (min-width : 992px) {
@@ -118,15 +133,27 @@ img.responsive-img {
     padding: 20PX;}
     
     #sponsors h6{
-    font-size: 8px;
+    font-size: 12px;
     color: bisque;
     list-style: none;
     padding:4px;
     }
+    #liljoy img{
+      padding-top: 25px;
+    }
+    
   }
   @media (max-width:576px){
     img.responsive-img {
       width: 80px;
       height: auto;
     }
+    #eventsp img{
+      height: 100px;
+      width: auto;
+    }
+    #mainevent h6{
+      font-size: 12px;
+    }
+
   }
